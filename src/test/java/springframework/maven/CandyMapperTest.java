@@ -9,6 +9,7 @@ import springframework.maven.pages.HomePage;
 import java.io.IOException;
 import java.util.logging.Logger;
 
+// Using this Framework in the Jenkins Also
 public class CandyMapperTest extends TestDataProvider {
 
     Logger logger = Logger.getLogger(getClass().getName());
