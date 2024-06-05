@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="SauceLabTestSuite">
+    <test name="WIN10-FF-Test1">
+        <parameter name="browser" value="Firefox"/>
+        <parameter name="version" value="110"/>
+        <parameter name="platform" value="Windows 10"/>
+        <classes>
+            <class name="saucelab.SauceLabDemoRunningTest"/>
+        </classes>
+    </test>
+    <test name="WIN10-Ch-Test2">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="version" value="109"/>
+        <parameter name="platform" value="Windows 10"/>
+        <classes>
+            <class name="saucelab.SauceLabDemoRunningTest"/>
+        </classes>
+    </test>
+    <test name="IOS-SF-Test3">
+        <parameter name="browser" value="safari"/>
+        <parameter name="version" value="109"/>
+        <parameter name="platform" value="IOS"/>
+        <classes>
+            <class name="saucelab.SauceLabDemoRunningTest"/>
+        </classes>
+    </test>
+</suite>
